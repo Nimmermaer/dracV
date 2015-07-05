@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-07-05T20:25:24Z" product-name="dracv">
+		<header/>
+		<body>
+			<trans-unit id="caladruri.description">
+				<source>A URL to use for sending a scheduling request to the person's calendar.</source>
+			</trans-unit>
+			<trans-unit id="caluri.description">
+				<source>A URL to the person's calendar.</source>
+			</trans-unit>
+			<trans-unit id="class.description">
+				<source>Describes the sensitivity of the information in the vCard.</source>
+			</trans-unit>
+			<trans-unit id="clientpidmap.description">
+				<source>Used for synchronizing different revisions of the same vCard.</source>
+			</trans-unit>
+			<trans-unit id="fburl.description">
+				<source>Defines a URL that shows when the person is &quot;free&quot; or &quot;busy&quot; on their calendar.</source>
+			</trans-unit>
+			<trans-unit id="fn.description">
+				<source>The formatted name string associated with the vCard object.</source>
+			</trans-unit>
+			<trans-unit id="geolatitude.description">
+				<source>geolatitude</source>
+			</trans-unit>
+			<trans-unit id="geolongitude.description">
+				<source>geolongitude</source>
+			</trans-unit>
+			<trans-unit id="vcard_key.description">
+				<source>The public encryption key associated with the vCard object. It may point to an external URL, may be plain text, or may be embedded in the vCard as a Base64 encoded block of text.</source>
+			</trans-unit>
+			<trans-unit id="kind.description">
+				<source>Defines the type of entity that this vCard represents: 'application', 'individual, 'group', 'location' or 'organization'; 'x-*' values may be used for experimental purposes.[5][6]</source>
+			</trans-unit>
+			<trans-unit id="mailer.description">
+				<source>Type of email program used.</source>
+			</trans-unit>
+			<trans-unit id="member.description">
+				<source>Defines a member that is part of the group that this vCard represents. Acceptable values include:
+a &quot;mailto:&quot; URL containing an email address
+a UID which references the member's own vCard
+The KIND property must be set to &quot;group&quot; in order to use this property.</source>
+			</trans-unit>
+			<trans-unit id="n.description">
+				<source>A structured representation of the name of the person, place or thing associated with the vCard object.</source>
+			</trans-unit>
+			<trans-unit id="note.description">
+				<source>Specifies supplemental information or a comment that is associated with the vCard.</source>
+			</trans-unit>
+			<trans-unit id="photo.description">
+				<source>photo</source>
+			</trans-unit>
+			<trans-unit id="prodid.description">
+				<source>The identifier for the product that created the vCard object.</source>
+			</trans-unit>
+			<trans-unit id="profile.description">
+				<source>States that the vCard is a vCard.</source>
+			</trans-unit>
+			<trans-unit id="sortstring.description">
+				<source>Defines a string that should be used when an application sorts this vCard in some way.
+
+* Not supported in version 4.0. Instead, this information is stored in the SORT-AS parameter of the N and/or ORG properties.</source>
+			</trans-unit>
+			<trans-unit id="source.description">
+				<source> URL that can be used to get the latest version of this vCard.</source>
+			</trans-unit>
+			<trans-unit id="timezone.description">
+				<source>The time zone of the vCard object.</source>
+			</trans-unit>
+			<trans-unit id="xml.description">
+				<source>Any XML data that is attached to the vCard. This is used if the vCard was encoded in XML (xCard standard) and the XML document contained elements which are not part of the xCard standard.</source>
+			</trans-unit>
+			<trans-unit id="birthplace.description">
+				<source>The location of the individual's birth. RFC 6474</source>
+			</trans-unit>
+			<trans-unit id="deathdate.description">
+				<source>The individual's time of death.</source>
+			</trans-unit>
+			<trans-unit id="deathplace.description">
+				<source>The location of the individual death.</source>
+			</trans-unit>
+			<trans-unit id="category.description">
+				<source>category</source>
+			</trans-unit>
+			<trans-unit id="agent.description">
+				<source>agent</source>
+			</trans-unit>
+			<trans-unit id="organization.description">
+				<source>organization</source>
+			</trans-unit>
+			<trans-unit id="related.description">
+				<source>related</source>
+			</trans-unit>
+			<trans-unit id="role.description">
+				<source>role</source>
+			</trans-unit>
+			<trans-unit id="sound.description">
+				<source>sound</source>
+			</trans-unit>
+			<trans-unit id="version.description">
+				<source>version</source>
+			</trans-unit>
+			<trans-unit id="expertise.description">
+				<source>expertise</source>
+			</trans-unit>
+			<trans-unit id="hobby.description">
+				<source>hobby</source>
+			</trans-unit>
+			<trans-unit id="interest.description">
+				<source>interest</source>
+			</trans-unit>
+			<trans-unit id="coworkers.description">
+				<source>coworkers</source>
+			</trans-unit>
+			<trans-unit id="impp.description">
+				<source>impp</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

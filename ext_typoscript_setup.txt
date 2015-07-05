@@ -1,0 +1,34 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            TYPO3\CMS\Extbase\Domain\Model\FrontendUser {
+                subclasses {
+                    Tx_Dracv_Vcard = PHTH\Dracv\Domain\Model\Vcard
+					
+          		}
+            }
+            TYPO3\CMS\Extbase\Domain\Model\Category {
+                subclasses {
+                    Tx_Dracv_Categories = PHTH\Dracv\Domain\Model\Categories
+					
+          		}
+            }
+            PHTH\Dracv\Domain\Model\Vcard {
+                mapping {
+                    tableName = fe_users
+                    recordType = Tx_Dracv_Vcard
+                }
+            }
+            
+            PHTH\Dracv\Domain\Model\Categories {
+                mapping {
+                    tableName = sys_category
+                    recordType = Tx_Dracv_Categories
+                }
+            }
+            
+    	}
+    }
+}

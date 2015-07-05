@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-07-05T20:25:25Z" product-name="dracv">
+		<header/>
+		<body>
+			<trans-unit id="corporate_company_logo.description">
+				<source>corporateCompanyLogo</source>
+			</trans-unit>
+			<trans-unit id="corporate_company_name.description">
+				<source>corporateCompanyName</source>
+			</trans-unit>
+			<trans-unit id="adress.description">
+				<source>adress</source>
+			</trans-unit>
+			<trans-unit id="town.description">
+				<source>town</source>
+			</trans-unit>
+			<trans-unit id="www.description">
+				<source>www</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="phone.description">
+				<source>phone</source>
+			</trans-unit>
+			<trans-unit id="contact.description">
+				<source>contact</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
